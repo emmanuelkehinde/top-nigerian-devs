@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="card col-md-3 devs"  *ngFor="let dev of devs">
+            <img class="card-img-top" src="{{dev.avatar_url}}" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">{{dev.login}}</h4>
+                <!--<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                <a href="{{dev.html_url}}" target="_blank" class="btn btn-primary">Github Repo</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
