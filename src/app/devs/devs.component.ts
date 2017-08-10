@@ -11,7 +11,7 @@ import {DevsService} from "../devs.service";
 export class DevsComponent implements OnInit, OnDestroy {
   private sub : Subscription;
   private lang : string;
-  private devs : any = [];
+  devs : any = [];
 
   constructor(private route: ActivatedRoute, private devsService: DevsService) {}
 
