@@ -1,5 +1,6 @@
 # TopNigerianDevs
 Companion repository for [this article](https://scotch.io/@emmanuelkehinde/learn-to-build-a-mean-stack-app-that-displays-a-list-of-top-nigerian-developers)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.7.
 
 ## Development server
